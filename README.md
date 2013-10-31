@@ -17,14 +17,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-adapt-tracking-ids');
 ```
 
-## The "adapt_tracking_ids" task
+## The "adapt_insert_tracking_ids" task
 
 ### Overview
-In your project's Gruntfile, add a section named `adapt_tracking_ids` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `adapt_insert_tracking_ids` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  adapt_tracking_ids: {
+  adapt_insert_tracking_ids: {
     options: {
       courseFile: "course/course.json"
     }
