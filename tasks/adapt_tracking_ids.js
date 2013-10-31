@@ -14,11 +14,10 @@ module.exports = function(grunt) {
         
         var options = this.options({
             contentTypes: ["topics", "pages", "articles", "blocks"],
-            latestTrackingId: -1
+            latestTrackingId: -1,
+            trackingIdsSeen: [],
         });
         
-        insertTrackingIds(grunt.file.readJSON(options.courseFile));
-
         function insertTrackingIds(course){
             options.latestTrackingId = course.latestTrackingId || -1;
             
@@ -35,7 +34,13 @@ module.exports = function(grunt) {
                 if(startingItem.trackingId === undefined) {
                     startingItem.trackingId = ++options.latestTrackingId;
                     grunt.log.writeln("Adding tracking ID: " + startingItem.trackingId + " to " + startingItem.id);
+                } else {
+                    if(options.trackingIdsSeen.indexOf(startingItem.trackingId) > -1) {
+                        grunt.log.writeln("Warning: " + startingItem.id + " has the tracking ID " + startingItem.trackingId + ", but this is already in use. Changing to " + (options.latestTrackingId + 1) + ".");
+                        startingItem.trackingId = ++options.latestTrackingId;
+                    }
                 }
+                options.trackingIdsSeen.push(startingItem.trackingId);
             } else {
                 var blocks = [], children;
                 for(var i = 0; i < options.contentTypes.length; i++) {
@@ -49,5 +54,7 @@ module.exports = function(grunt) {
                 }
             }
         }
+        
+        insertTrackingIds(grunt.file.readJSON(options.courseFile));
     });
-}
+};
