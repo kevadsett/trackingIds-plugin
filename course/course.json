@@ -1,0 +1,1863 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "navigation": {
+        "settings": true,
+        "search": true,
+        "accessibility": true,
+        "resources": true
+    },
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Submit</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Submit</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Standard Functionality",
+            "body": "The module description sits here.",
+            "graphic": {
+                "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Adapt Components",
+                    "body": "The topic description sits here.",
+                    "graphic": {
+                        "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "Presentation Components",
+                            "body": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "Article 1",
+                                    "assessment": false,
+                                    "mobile-hidden": true,
+                                    "blockSlider": {
+                                        "active": false,
+                                        "height": 600,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 3
+                                    },
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Block title 1 - m05-t05-p05-a05-b05",
+                                            "roles": "man",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "triggered": true,
+                                                    "triggerPos": {
+                                                        "left": 30,
+                                                        "top": 20
+                                                    },
+                                                    "title": "Text",
+                                                    "body": "Text components can be single span or full span. Single span text will scale to fit the space and depth available. Full span text will appear as a full width component when viewed on desktop, but will scale down to a single width component on mobile.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "graphic",
+                                                    "triggered": true,
+                                                    "triggerPos": {
+                                                        "left": 90,
+                                                        "top": 70
+                                                    },
+                                                    "title": "Graphic",
+                                                    "body": "This is optional body text.",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/graphic_singlewidth.jpg",
+                                                        "alt": "alt text",
+                                                        "title": "title text"
+                                                    },
+                                                    "audio": {
+                                                        "mp3": "course/assets/m05/t05/p101/adapt.mp3",
+                                                        "ogg": "course/assets/m05/t05/p101/adapt.ogg"
+                                                    }
+                                                }
+                                            ],
+                                            "trackingId": 0
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "Block title 2 - m05-t05-p05-a05-b10",
+                                            "roles": "emp",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "blank"
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "Accordion",
+                                                    "body": "This is optional body text. Select the headings below to reveal the text.",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Heading 1",
+                                                            "title": "Heading 1",
+                                                            "body": "This is display text 1."
+                                                        },
+                                                        {
+                                                            "alt": "Heading 2",
+                                                            "title": "Heading 2",
+                                                            "body": "This is display text 2."
+                                                        },
+                                                        {
+                                                            "alt": "Heading 3",
+                                                            "title": "Heading 3",
+                                                            "body": "This is display text 3."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "trackingId": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "m05-t05-p05-a10",
+                                    "class": "",
+                                    "title": "Article 2",
+                                    "assessment": false,
+                                    "mobile-hidden": true,
+                                    "blockSlider": {
+                                        "active": false,
+                                        "height": 600,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 3
+                                    },
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a10-b05",
+                                            "class": "",
+                                            "title": "Block title 1 - m05-t05-p05-a10-b05",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a10-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "Narrative",
+                                                    "body": "This is optional body text. Select the forward arrows to move through the narrative on a desktop, or swipe the images and select the plus icons to do so on mobile.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Narrative stage 1 title",
+                                                            "body": "This is display text 1. If viewing on desktop or tablet, this text will appear to the right of the image. On mobile, you’ll need to select the plus icon to reveal this text.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative_1.jpg",
+                                                                "alt": "alt text",
+                                                                "title": "title text"
+                                                            },
+                                                            "strapline": "strapline..."
+                                                        },
+                                                        {
+                                                            "title": "Narrative stage 2 title",
+                                                            "body": "This is display text 2.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative_2.jpg",
+                                                                "alt": "alt text",
+                                                                "title": "title text"
+                                                            },
+                                                            "strapline": "strapline..."
+                                                        },
+                                                        {
+                                                            "title": "Narrative stage 3 title",
+                                                            "body": "This is display text 3.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative_3.jpg",
+                                                                "alt": "alt text",
+                                                                "title": "title text"
+                                                            },
+                                                            "strapline": "strapline..."
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "trackingId": 2
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a10-b10",
+                                            "class": "",
+                                            "title": "Block title 2 - m05-t05-p05-a10-b10",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a10-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Hot graphic",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/hot_graphic.jpg",
+                                                        "alt": "alt text",
+                                                        "title": "title"
+                                                    },
+                                                    "body": "This is optional body text. Select the hotspots on the image to reveal the text. This component will scale down to a narrative when viewed on mobile.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Hotspot 1 title",
+                                                            "body": "This is display text 1.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative_1.jpg",
+                                                                "alt": "alt text",
+                                                                "title": "title text"
+                                                            },
+                                                            "strapline": "strapline...",
+                                                            "top": 5,
+                                                            "left": 20
+                                                        },
+                                                        {
+                                                            "title": "Hotspot 2 title",
+                                                            "body": "This is display text 2.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative_2.jpg",
+                                                                "alt": "alt text",
+                                                                "title": "title text"
+                                                            },
+                                                            "strapline": "strapline...",
+                                                            "top": 25,
+                                                            "left": 60
+                                                        },
+                                                        {
+                                                            "title": "Hotspot 3 title",
+                                                            "body": "This is display text 3.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative_3.jpg",
+                                                                "alt": "alt text",
+                                                                "title": "title text"
+                                                            },
+                                                            "strapline": "strapline...",
+                                                            "top": 85,
+                                                            "left": 40
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "trackingId": 3
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a10-b15",
+                                            "class": "",
+                                            "title": "Block title 3 - m05-t05-p05-a10-b15",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a10-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Media",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p101/big_buck_bunny.mp4",
+                                                        "ogv": "course/assets/m05/t05/p101/big_buck_bunny.ogv"
+                                                    },
+                                                    "body": "This is optional body text. Select the play button to start the video.",
+                                                    "transcript": "trans transcript text goes here.... transcript text goes here transscript text goes here... transcript text.. transcript text.. transcript text.. transcript text.. transcript text.. transcript text.. transcript text.."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a10-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "Reveal",
+                                                    "body": "This is optional body text. Drag the slider from left to right across the image. A possible use for this component type is to show a before and after case study.",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/narrative_4.jpg",
+                                                        "alt": "alt",
+                                                        "title": "title",
+                                                        "body": "body"
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p101/narrative-placeholder-3.jpg",
+                                                        "alt": "alt",
+                                                        "title": "title",
+                                                        "body": "body"
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "title",
+                                                        "text": "open!"
+                                                    }
+                                                }
+                                            ],
+                                            "trackingId": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "Question Components",
+                            "body": "Find out about the question components.",
+                            "graphic": {
+                                "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "Article 1",
+                                    "assessment": false,
+                                    "blockSlider": {
+                                        "active": false,
+                                        "height": 600,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 2
+                                    },
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "Block title 1",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 3,
+                                                    "random": true,
+                                                    "selectable": 1,
+                                                    "darkIcons": false,
+                                                    "title": "Multiple choice question",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Option 1 (correct)",
+                                                            "title": "Option 1 (correct)",
+                                                            "text": "Option 1 (correct)",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Option 2 (incorrect)",
+                                                            "title": "Option 2 (incorrect)",
+                                                            "text": "Option 2 (incorrect)",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Option 3 (incorrect)",
+                                                            "title": "Option 3 (incorrect)",
+                                                            "text": "Option 3 (incorrect)",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "textinput",
+                                                    "attempts": 1,
+                                                    "title": "text input",
+                                                    "body": "If A is 1%, what are B, C and D?",
+                                                    "audio": {
+                                                        "mp3": "course/assets/m05/t05/p101/test_audio.mp3",
+                                                        "ogg": "course/assets/m05/t05/p101/test_audio.ogg"
+                                                    },
+                                                    "placeholder": "Enter answer here",
+                                                    "allowAnyOrder": false,
+                                                    "allowAnyCase": true,
+                                                    "allowPunctuation": true,
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "model": "Model answer",
+                                                        "reset": "Reset",
+                                                        "user": "My answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": "This feedback will appear if you answered the question incorrectly.",
+                                                        "partly": "This feedback will appear if you answered part of the question correctly.",
+                                                        "audio": {
+                                                            "mp3": "course/assets/m05/t05/p101/test_audio.mp3",
+                                                            "ogg": "course/assets/m05/t05/p101/test_audio.ogg"
+                                                        }
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "prefix": "B",
+                                                            "suffix": "%",
+                                                            "answers": [
+                                                                "2",
+                                                                "two"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "prefix": "C",
+                                                            "suffix": "%",
+                                                            "answers": [
+                                                                "3",
+                                                                "three"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "prefix": "D",
+                                                            "suffix": "%",
+                                                            "answers": [
+                                                                "4",
+                                                                "four"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "trackingId": 5
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "Block title 2",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "ppq",
+                                                    "mobile-hidden": true,
+                                                    "attempts": 1,
+                                                    "title": "Pin point question",
+                                                    "body": "",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/ppq_1.jpg",
+                                                        "alt": "PPQ image",
+                                                        "title": "PPQ image"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "widget": {
+                                                        "title": "",
+                                                        "body": "The question stem will sit here. Select the appropriate areas on the image to make your decision. Doing so will place a pin in that area. This pin can be dragged to another area on the image if you wish to change your mind. Select <b>Submit</b> when you’re ready."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "left": 23.33332,
+                                                            "bottom": 38,
+                                                            "width": 16.66667,
+                                                            "height": 25
+                                                        },
+                                                        {
+                                                            "left": 41.66667,
+                                                            "bottom": 38,
+                                                            "width": 16.66667,
+                                                            "height": 25
+                                                        },
+                                                        {
+                                                            "left": 60,
+                                                            "bottom": 38,
+                                                            "width": 16.66667,
+                                                            "height": 25
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "trackingId": 6
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b15",
+                                            "class": "",
+                                            "title": "Block title 3",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "matching",
+                                                    "attempts": 2,
+                                                    "random": true,
+                                                    "title": "Matching",
+                                                    "body": "Basically what you need to do is matching the questions below with the drop down box option.",
+                                                    "audio": {
+                                                        "mp3": "",
+                                                        "ogg": ""
+                                                    },
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON-FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON-FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL and NON-FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "placeholder": "select an option",
+                                                    "items": [
+                                                        {
+                                                            "text": "Pick option two",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option two (correct)",
+                                                                    "correct": true
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "text": "Pick option three",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option three (correct)",
+                                                                    "correct": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "text": "Pick option one",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one (correct)",
+                                                                    "correct": true
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": false
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b15-c10",
+                                                    "layout": "right",
+                                                    "component": "slider",
+                                                    "title": "Slider",
+                                                    "body": "Question goes here",
+                                                    "error": "error msg",
+                                                    "attempts": 2,
+                                                    "showNumber": true,
+                                                    "showScaleIndicator": true,
+                                                    "labelstart": "complete",
+                                                    "labelend": "incomplete",
+                                                    "scalestart": 1,
+                                                    "scaleend": 10,
+                                                    "correctanswer": "",
+                                                    "correctrange": {
+                                                        "bottom": 4,
+                                                        "top": 9
+                                                    },
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "model": "Model Answer",
+                                                        "reset": "Reset",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    }
+                                                }
+                                            ],
+                                            "trackingId": 7
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "m05-t05-p10-a10",
+                                    "class": "",
+                                    "title": "Article 2",
+                                    "assessment": false,
+                                    "blockSlider": {
+                                        "active": false,
+                                        "height": 600,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 2
+                                    },
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a10-b05",
+                                            "title": "block title 1",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a10-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "ordering",
+                                                    "attempts": 2,
+                                                    "title": "Ordering",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "previewError": "Please make sure each item contains a number and is not duplicate",
+                                                    "submitError": "Please preview first to view your selected order",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Option 1",
+                                                            "title": "Hello"
+                                                        },
+                                                        {
+                                                            "alt": "Option 2",
+                                                            "title": "I"
+                                                        },
+                                                        {
+                                                            "alt": "Option 3",
+                                                            "title": "am"
+                                                        },
+                                                        {
+                                                            "alt": "Option 4",
+                                                            "title": "Kev"
+                                                        }
+                                                    ],
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer",
+                                                        "preview": "preview"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": "This feedback will appear if you answered the question incorrectly.",
+                                                        "partly": "This feedback will appear if you answered part of the question correctly.",
+                                                        "audio": {
+                                                            "mp3": "course/assets/m05/t05/p101/adapt.mp3",
+                                                            "ogg": "course/assets/m05/t05/p101/adapt.ogg"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a10-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "blank"
+                                                }
+                                            ],
+                                            "trackingId": 8
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a10-b10",
+                                            "title": "block title 2",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a10-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "gmcq",
+                                                    "attempts": 1,
+                                                    "columns": "",
+                                                    "point": true,
+                                                    "random": false,
+                                                    "selectable": 1,
+                                                    "darkIcons": true,
+                                                    "title": "Graphical Multiple choice question",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/hot_graphic.jpg",
+                                                        "alt": "test",
+                                                        "title": "test"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "graphic": {
+                                                                "src": "",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "feedback": "",
+                                                            "desktopTop": 37,
+                                                            "desktopLeft": 10,
+                                                            "mobileTop": 33,
+                                                            "mobileLeft": 9
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "feedback": "",
+                                                            "desktopTop": 34,
+                                                            "desktopLeft": 30,
+                                                            "mobileTop": 29,
+                                                            "mobileLeft": 29
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "feedback": "",
+                                                            "desktopTop": 55,
+                                                            "desktopLeft": 51,
+                                                            "mobileTop": 52,
+                                                            "mobileLeft": 50
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "feedback": "",
+                                                            "desktopTop": 43,
+                                                            "desktopLeft": 74,
+                                                            "mobileTop": 39,
+                                                            "mobileLeft": 72
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "trackingId": 9
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "m05-t10",
+                    "title": "Full Width Components",
+                    "body": "The topic description sits here.",
+                    "graphic": {
+                        "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t10-p10",
+                            "class": "",
+                            "title": "Additional Width Components",
+                            "body": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t10-p10-a05",
+                                    "class": "",
+                                    "title": "Article 1",
+                                    "assessment": false,
+                                    "mobile-hidden": true,
+                                    "blockSlider": {
+                                        "active": false,
+                                        "height": 600,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 3
+                                    },
+                                    "roles": "op",
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t10-p10-a05-b05",
+                                            "class": "",
+                                            "title": "Block title 1",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t10-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Text",
+                                                    "body": "Text components can be single span or full span. Single span text will scale to fit the space and depth available. Full span text will appear as a full width component when viewed on desktop, but will scale down to a single width component on mobile.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                }
+                                            ],
+                                            "trackingId": 10
+                                        },
+                                        {
+                                            "id": "m05-t10-p10-a05-b10",
+                                            "class": "",
+                                            "title": "Block title 2",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t10-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "graphic",
+                                                    "title": "Graphic",
+                                                    "body": "This is optional body text.",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/graphic_fullwidth.jpg",
+                                                        "alt": "alt text",
+                                                        "title": "title text"
+                                                    },
+                                                    "audio": {
+                                                        "mp3": "course/assets/m05/t05/p101/adapt.mp3",
+                                                        "ogg": "course/assets/m05/t05/p101/adapt.ogg"
+                                                    }
+                                                }
+                                            ],
+                                            "trackingId": 11
+                                        },
+                                        {
+                                            "id": "m05-t10-p10-a05-b15",
+                                            "class": "",
+                                            "title": "Block title 3",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t10-p10-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "media",
+                                                    "title": "Media",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p101/big_buck_bunny.mp4",
+                                                        "ogv": "course/assets/m05/t05/p101/big_buck_bunny.ogv"
+                                                    },
+                                                    "body": "This is optional body text. Select the play button to start the video.",
+                                                    "transcript": "trans"
+                                                }
+                                            ],
+                                            "trackingId": 12
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "m05-t10-p10-a10",
+                                    "class": "",
+                                    "title": "Article 2",
+                                    "assessment": false,
+                                    "mobile-hidden": true,
+                                    "blockSlider": {
+                                        "active": false,
+                                        "height": 600,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 3
+                                    },
+                                    "roles": "op",
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t10-p10-a10-b05",
+                                            "class": "",
+                                            "title": "Block title 1",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t10-p10-a10-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "gmcq",
+                                                    "attempts": 1,
+                                                    "columns": 3,
+                                                    "point": false,
+                                                    "random": true,
+                                                    "selectable": 1,
+                                                    "title": "Graphical Multiple choice question",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "graphic": {
+                                                        "src": "",
+                                                        "alt": "",
+                                                        "title": ""
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-1.jpg",
+                                                                "alt": "graphic 1",
+                                                                "title": "graphic 1"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-2.jpg",
+                                                                "alt": "graphic 2",
+                                                                "title": "graphic 2"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-3.jpg",
+                                                                "alt": "graphic 3",
+                                                                "title": "graphic 3"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t10-p10-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "blank"
+                                                }
+                                            ],
+                                            "trackingId": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "m10",
+            "title": "Additional Functionality",
+            "body": "The module description sits here!",
+            "graphic": {
+                "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "roles": [
+                "man",
+                "asst"
+            ],
+            "topics": [
+                {
+                    "id": "m10-t05",
+                    "title": "Block Slider Questions",
+                    "body": "An example of every question type, in a block slider.",
+                    "graphic": {
+                        "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m10-t05-p05",
+                            "class": "",
+                            "title": "Don't enable on revisit",
+                            "body": "You can only attempt these questions once",
+                            "graphic": {
+                                "src": "course/assets/m05/t05/p101/menu-5.jpg",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m10-t05-p05-a05",
+                                    "class": "",
+                                    "title": "Article 1",
+                                    "assessment": true,
+                                    "randomise": false,
+                                    "banks": "",
+                                    "startBlocks": 1,
+                                    "endBlocks": 2,
+                                    "randomCount": 0,
+                                    "mobile-hidden": true,
+                                    "blockSlider": {
+                                        "active": true,
+                                        "height": 800,
+                                        "tabs": true,
+                                        "indicators": true,
+                                        "direction": "both",
+                                        "initial": 1
+                                    },
+                                    "blocks": [
+                                        {
+                                            "id": "m10-t05-p05-a05-b01",
+                                            "class": "",
+                                            "title": "Text Start",
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b01-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Text",
+                                                    "body": "Text components can be single span or full span. Single span text will scale to fit the space and depth available. Full span text will appear as a full width component when viewed on desktop, but will scale down to a single width component on mobile.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                }
+                                            ],
+                                            "trackingId": 14
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Bank 1 - B1",
+                                            "roles": "man",
+                                            "bankID": 1,
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "random": true,
+                                                    "selectable": 1,
+                                                    "title": "Multiple choice question",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Option 1 (correct)",
+                                                            "title": "Option 1 (correct)",
+                                                            "text": "Option 1 (correct)",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Option 2 (incorrect)",
+                                                            "title": "Option 2 (incorrect)",
+                                                            "text": "Option 2 (incorrect)",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Option 3 (incorrect)",
+                                                            "title": "Option 3 (incorrect)",
+                                                            "text": "Option 3 (incorrect)",
+                                                            "feedback": ""
+                                                        }
+                                                    ],
+                                                    "associatedLearning": "m05-t05-p05-a05-b05"
+                                                },
+                                                {
+                                                    "id": "m10-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "enableOnRevisit": false,
+                                                    "component": "textinput",
+                                                    "attempts": 1,
+                                                    "title": "text input",
+                                                    "body": "If A is 1%, what are B, C and D?",
+                                                    "audio": {
+                                                        "mp3": "course/assets/m05/t05/p101/test_audio.mp3",
+                                                        "ogg": "course/assets/m05/t05/p101/test_audio.ogg"
+                                                    },
+                                                    "placeholder": "Enter answer here",
+                                                    "allowAnyOrder": false,
+                                                    "allowAnyCase": true,
+                                                    "allowPunctuation": true,
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "model": "Model answer",
+                                                        "reset": "Reset",
+                                                        "user": "My answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": "This feedback will appear if you answered the question incorrectly.",
+                                                        "partly": "This feedback will appear if you answered part of the question correctly.",
+                                                        "audio": {
+                                                            "mp3": "course/assets/m05/t05/p101/test_audio.mp3",
+                                                            "ogg": "course/assets/m05/t05/p101/test_audio.ogg"
+                                                        }
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "prefix": "B",
+                                                            "suffix": "%",
+                                                            "answers": [
+                                                                "2",
+                                                                "two"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "prefix": "C",
+                                                            "suffix": "%",
+                                                            "answers": [
+                                                                "3",
+                                                                "three"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "prefix": "D",
+                                                            "suffix": "%",
+                                                            "answers": [
+                                                                "4",
+                                                                "four"
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "associatedLearning": "m05-t05-p05-a05-b10"
+                                                }
+                                            ],
+                                            "trackingId": 15
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "Bank 1 - B2",
+                                            "bankID": 1,
+                                            "roles": "asst",
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "matching",
+                                                    "attempts": 1,
+                                                    "random": true,
+                                                    "title": "Matching",
+                                                    "body": "Basically what you need to do is matching the questions below with the drop down box option.",
+                                                    "audio": {
+                                                        "mp3": "",
+                                                        "ogg": ""
+                                                    },
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "placeholder": "select an option",
+                                                    "items": [
+                                                        {
+                                                            "text": "uh uh pick option two",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": true
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "text": "uh uh pick option three",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "text": "uh uh pick option one",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": true
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": false
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "associatedLearning": "m05-t05-p05-a10-b05"
+                                                },
+                                                {
+                                                    "id": "m10-t05-p05-a05-b10-c10",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "slider",
+                                                    "title": "Slider",
+                                                    "body": "Question goes here",
+                                                    "error": "error msg",
+                                                    "attempts": 1,
+                                                    "showNumber": true,
+                                                    "showScaleIndicator": true,
+                                                    "labelstart": "complete",
+                                                    "labelend": "incomplete",
+                                                    "scalestart": 1,
+                                                    "scaleend": 10,
+                                                    "correctanswer": "",
+                                                    "correctrange": {
+                                                        "bottom": 4,
+                                                        "top": 6
+                                                    },
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "model": "Model Answer",
+                                                        "reset": "Reset",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "associatedLearning": "m05-t05-p05-a10-b10"
+                                                }
+                                            ],
+                                            "trackingId": 16
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b13",
+                                            "class": "",
+                                            "title": "Bank 1 - B3",
+                                            "bankID": 1,
+                                            "roles": "asst",
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b13-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "matching",
+                                                    "attempts": 1,
+                                                    "random": true,
+                                                    "title": "Matching",
+                                                    "body": "Basically what you need to do is matching the questions below with the drop down box option.",
+                                                    "audio": {
+                                                        "mp3": "",
+                                                        "ogg": ""
+                                                    },
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "placeholder": "select an option",
+                                                    "items": [
+                                                        {
+                                                            "text": "uh uh pick option two",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": true
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "text": "uh uh pick option three",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": true
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "text": "uh uh pick option one",
+                                                            "options": [
+                                                                {
+                                                                    "text": "Option one",
+                                                                    "correct": true
+                                                                },
+                                                                {
+                                                                    "text": "Option two",
+                                                                    "correct": false
+                                                                },
+                                                                {
+                                                                    "text": "Option three",
+                                                                    "correct": false
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "associatedLearning": "m05-t05-p05-a10-b05"
+                                                },
+                                                {
+                                                    "id": "m10-t05-p05-a05-b13-c10",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "slider",
+                                                    "title": "Slider",
+                                                    "body": "Question goes here",
+                                                    "error": "error msg",
+                                                    "attempts": 1,
+                                                    "showNumber": true,
+                                                    "showScaleIndicator": true,
+                                                    "labelstart": "complete",
+                                                    "labelend": "incomplete",
+                                                    "scalestart": 1,
+                                                    "scaleend": 10,
+                                                    "correctanswer": "",
+                                                    "correctrange": {
+                                                        "bottom": 4,
+                                                        "top": 6
+                                                    },
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "model": "Model Answer",
+                                                        "reset": "Reset",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "associatedLearning": "m05-t05-p05-a10-b13"
+                                                }
+                                            ],
+                                            "trackingId": 17
+                                        },
+                                        {
+                                            "id": " m10-t05-p05-a05-b15",
+                                            "class": "",
+                                            "title": "Bank 2 - B1",
+                                            "bankID": 2,
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "ordering",
+                                                    "attempts": 1,
+                                                    "title": "Multiple choice question",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "previewError": "Please make sure each item contains a number and is not duplicate",
+                                                    "submitError": "Please preview first to view your selected order",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Option 1",
+                                                            "title": "Option 1"
+                                                        },
+                                                        {
+                                                            "alt": "Option 2",
+                                                            "title": "Option 2"
+                                                        },
+                                                        {
+                                                            "alt": "Option 3",
+                                                            "title": "Option 3"
+                                                        },
+                                                        {
+                                                            "alt": "Option 4",
+                                                            "title": "Option 4"
+                                                        }
+                                                    ],
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer",
+                                                        "preview": "preview"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": "This feedback will appear if you answered the question incorrectly.",
+                                                        "partly": "This feedback will appear if you answered part of the question correctly.",
+                                                        "audio": {
+                                                            "mp3": "course/assets/m05/t05/p101/adapt.mp3",
+                                                            "ogg": "course/assets/m05/t05/p101/adapt.ogg"
+                                                        }
+                                                    },
+                                                    "associatedLearning": "m05-t05-p05-a10-b10"
+                                                }
+                                            ],
+                                            "trackingId": 18
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b18",
+                                            "class": "",
+                                            "title": "Bank 2 - B2",
+                                            "bankID": 2,
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b18-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "enableOnRevisit": false,
+                                                    "component": "ppq",
+                                                    "mobile-hidden": true,
+                                                    "attempts": 1,
+                                                    "title": "Pin point question",
+                                                    "body": "The question stem will sit here. Select the appropriate areas on the image to make your decision. Doing so will place a pin in that area. This pin can be dragged to another area on the image if you wish to change your mind. Select <b>Submit</b> when you’re ready.",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p101/ppq_1.jpg",
+                                                        "alt": "PPQ image",
+                                                        "title": "PPQ image"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "widget": {
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "left": 23.33332,
+                                                            "bottom": 38,
+                                                            "width": 16.66667,
+                                                            "height": 25
+                                                        },
+                                                        {
+                                                            "left": 41.66667,
+                                                            "bottom": 38,
+                                                            "width": 16.66667,
+                                                            "height": 25
+                                                        },
+                                                        {
+                                                            "left": 60,
+                                                            "bottom": 38,
+                                                            "width": 16.66667,
+                                                            "height": 25
+                                                        }
+                                                    ],
+                                                    "associatedLearning": "m05-t05-p05-a10-b10"
+                                                }
+                                            ],
+                                            "trackingId": 19
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b34",
+                                            "class": "",
+                                            "title": "Bank 3 - B1",
+                                            "bankID": 3,
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b34-c05",
+                                                    "class": "dark-icons",
+                                                    "layout": "full",
+                                                    "enableOnRevisit": false,
+                                                    "component": "gmcq",
+                                                    "attempts": 1,
+                                                    "columns": 4,
+                                                    "point": false,
+                                                    "random": true,
+                                                    "selectable": 1,
+                                                    "title": "Graphical Multiple choice question",
+                                                    "body": "The question stem will sit here. Choose the appropriate options and select Submit when you’re ready. Try to place the majority of the informative text in the question stem so that you can keep option text to a minimum.",
+                                                    "button": {
+                                                        "submit": "Submit",
+                                                        "reset": "Reset",
+                                                        "model": "Model Answer",
+                                                        "user": "My Answer"
+                                                    },
+                                                    "graphic": {
+                                                        "src": "",
+                                                        "alt": "",
+                                                        "title": ""
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "FINAL and NON FINAL This feedback will appear if you answered the question correctly.",
+                                                        "incorrect": [
+                                                            "FINAL This feedback will appear if you answered the question incorrectly.",
+                                                            "NON FINAL This feedback will appear if you answered the question incorrectly."
+                                                        ],
+                                                        "partly": "FINAL This feedback will appear if you answered part of the question correctly."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-1.jpg",
+                                                                "alt": "graphic 1",
+                                                                "title": "graphic 1"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-2.jpg",
+                                                                "alt": "graphic 2",
+                                                                "title": "graphic 2"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-3.jpg",
+                                                                "alt": "graphic 3",
+                                                                "title": "graphic 3"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p101/narrative-4.jpg",
+                                                                "alt": "graphic 4",
+                                                                "title": "graphic 4"
+                                                            },
+                                                            "feedback": "",
+                                                            "top": "",
+                                                            "left": ""
+                                                        }
+                                                    ],
+                                                    "associatedLearning": "m05-t05-p05-a10-b10"
+                                                }
+                                            ],
+                                            "trackingId": 20
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b50",
+                                            "class": "",
+                                            "title": "Results Block",
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "enableOnRevisit": false,
+                                                    "component": "result",
+                                                    "title": "Results",
+                                                    "quizNotFinishedText": "Once you have completed the quiz, your results will appear here.",
+                                                    "scoreText": "You've scored [SCORE] out of [MAXSCORE].",
+                                                    "feedback": [
+                                                        "You've scored [SCORE] out of [MAXSCORE].<br/><br/>Top feedback!!<br/><br/>Close the window to exit the quiz.",
+                                                        "You've scored [SCORE] out of [MAXSCORE].<br/><br/>2nd highest feedback!!<br/><br/>Close the window to exit the quiz.",
+                                                        "You've scored [SCORE] out of [MAXSCORE].<br/><br/>2nd lowest feedback!!<br/><br/>Close the window to exit the quiz.",
+                                                        "You've scored [SCORE] out of [MAXSCORE].<br/><br/>Lowest feedback!!<br/><br/>Close the window to exit the quiz."
+                                                    ],
+                                                    "bands": [
+                                                        100,
+                                                        80,
+                                                        50,
+                                                        0
+                                                    ],
+                                                    "passingScore": 8,
+                                                    "submitScore": true,
+                                                    "reviewText": "You should review the following areas:",
+                                                    "assessment": true,
+                                                    "finalInstruction": "Close the window to exit the quiz."
+                                                },
+                                                {
+                                                    "id": "m10-t05-p05-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "blank"
+                                                }
+                                            ],
+                                            "trackingId": 21
+                                        },
+                                        {
+                                            "id": "m10-t05-p05-a05-b55",
+                                            "class": "",
+                                            "title": "Text End",
+                                            "components": [
+                                                {
+                                                    "id": "m10-t05-p05-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Text",
+                                                    "body": "Text components can be single span or full span. Single span text will scale to fit the space and depth available. Full span text will appear as a full width component when viewed on desktop, but will scale down to a single width component on mobile.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                }
+                                            ],
+                                            "trackingId": 22
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "latestTrackingId": 22
+}
