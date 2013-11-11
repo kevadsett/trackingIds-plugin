@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                         grunt.log.writeln("Warning: " + startingItem.id + " has the tracking ID " + startingItem.trackingId + ", but this is already in use. Changing to " + (options.latestTrackingId + 1) + ".");
                         startingItem.trackingId = ++options.latestTrackingId;
                     }
-                    options.latestTrackingId = startingItem.trackingId;
+                    if(options.latestTrackingId < startingItem.trackingId) options.latestTrackingId = startinItem.trackingId;
                 }
                 options.trackingIdsSeen.push(startingItem.trackingId);
             } else {
